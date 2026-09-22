@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Synapfly",
+    "slug": "synapfly",
+    "version": "0.1.0",
+    "orientation": "landscape",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "android": {
+      "package": "com.romuliq.synapfly",
+      "screenOrientation": "landscape"
+    },
+    "ios": {
+      "bundleIdentifier": "com.romuliq.synapfly",
+      "supportsTablet": true,
+      "requireFullScreen": true
+    },
+    "plugins": [
+      [
+        "expo-screen-orientation",
+        {
+          "initialOrientation": "LANDSCAPE"
+        }
+      ]
+    ]
+  }
+}

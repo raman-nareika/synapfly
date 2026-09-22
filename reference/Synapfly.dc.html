@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet data-dc-atomics><meta name="design_doc_mode" content="canvas"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet"><style>body{margin:0;background:#12100d;font-family:"Space Grotesk",system-ui,sans-serif}a{color:#7cf08a}a:hover{color:#a6f7ae}</style></helmet>
+
+<section id="t4" style="padding:44px 48px 40px;border-bottom:1px solid rgba(255,255,255,.08)">
+  <div style="display:flex;align-items:baseline;gap:12px;margin:0 0 6px">
+    <a href="#t4" style="font:600 10px 'IBM Plex Mono',monospace;padding:4px 8px;background:#ffd43b;color:#05171e;border-radius:4px;text-decoration:none">4</a>
+    <span style="font:600 13px 'Space Grotesk',sans-serif;color:#f2efe9">Настройки с переключателем темы</span>
+  </div>
+  <p style="margin:0 0 26px;max-width:780px;font:400 12px/1.6 'IBM Plex Mono',monospace;color:rgba(242,239,233,.55);text-wrap:pretty">Обе темы остаются в сборке. Превью в карточке — настоящие цвета из <a href="#2a">2a</a> и <a href="#2b">2b</a>: фон, полоса стены, блок препятствия, акцент. В движке это <span style="color:#ffd43b">THEMES.teal</span> и <span style="color:#ff7a5c">THEMES.dusk</span>.</p>
+
+  <div id="4a" style="display:flex;flex-direction:column;gap:10px;scroll-margin-top:16px">
+    <div style="display:flex;align-items:baseline;gap:9px;font:400 11px/1.3 'IBM Plex Mono',monospace;color:rgba(242,239,233,.5)">
+      <a href="#4a" style="font:600 10.5px 'IBM Plex Mono',monospace;padding:3px 7px;background:rgba(255,212,59,.16);color:#ffd43b;border-radius:5px;text-decoration:none">4a</a>
+      Settings · пейзаж 844×390
+    </div>
+    <div style="width:868px;padding:12px;background:#1c1b17;border:1px solid rgba(255,255,255,.1);border-radius:46px;box-shadow:0 20px 50px rgba(0,0,0,.45)">
+      <div style="display:flex;width:844px;height:390px;border-radius:32px;overflow:hidden;background:#0d2b36;box-sizing:border-box">
+
+        <div style="width:246px;display:flex;flex-direction:column;justify-content:space-between;padding:32px 30px;background:rgba(5,23,30,.55)">
+          <div style="display:flex;flex-direction:column;gap:18px">
+            <div style="font:700 28px/1 'Space Grotesk',sans-serif;color:#fff8e7;letter-spacing:-.02em">Settings</div>
+            <div style="display:flex;flex-direction:column;gap:2px">
+              <div style="padding:9px 12px;background:#ffd43b;font:700 10.5px/1 'Space Grotesk',sans-serif;letter-spacing:.12em;color:#05171e">THEME</div>
+              <div style="padding:9px 12px;font:700 10.5px/1 'Space Grotesk',sans-serif;letter-spacing:.12em;color:rgba(255,248,231,.6)">GAMEPLAY</div>
+              <div style="padding:9px 12px;font:700 10.5px/1 'Space Grotesk',sans-serif;letter-spacing:.12em;color:rgba(255,248,231,.6)">HUD</div>
+              <div style="padding:9px 12px;font:700 10.5px/1 'Space Grotesk',sans-serif;letter-spacing:.12em;color:rgba(255,248,231,.6)">AUDIO</div>
+            </div>
+          </div>
+          <div style="display:flex;align-items:center;justify-content:center;height:42px;border:2px solid rgba(255,248,231,.22);font:700 10.5px/1 'Space Grotesk',sans-serif;letter-spacing:.12em;color:rgba(255,248,231,.8)">BACK</div>
+        </div>
+
+        <div style="flex:1;display:flex;flex-direction:column;gap:20px;padding:32px 34px">
+          <div style="display:flex;flex-direction:column;gap:11px">
+            <div style="font:700 9.5px/1 'Space Grotesk',sans-serif;letter-spacing:.2em;color:rgba(255,248,231,.45)">THEME</div>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+
+              <div style="padding:13px;background:rgba(255,212,59,.08);border:2px solid #ffd43b;box-sizing:border-box">
+                <div style="display:flex;height:52px;overflow:hidden">
+                  <div style="width:14px;background:#05171e"></div>
+                  <div style="flex:1;background:#0d2b36;position:relative">
+                    <div style="position:absolute;left:18px;bottom:0;width:38px;height:26px;background:#07212b;border-top:3px solid #ffd43b"></div>
+                    <div style="position:absolute;right:16px;top:0;width:30px;height:20px;background:#07212b;border-bottom:3px solid #ffd43b"></div>
+                  </div>
+                  <div style="width:14px;background:#05171e"></div>
+                </div>
+                <div style="display:flex;align-items:center;justify-content:space-between;margin-top:11px">
+                  <div style="font:700 11.5px/1 'Space Grotesk',sans-serif;color:#fff8e7">DEEP TEAL</div>
+                  <div style="width:15px;height:15px;border-radius:15px;background:#ffd43b"></div>
+                </div>
+                <div style="margin-top:5px;font:400 9.5px/1 'IBM Plex Mono',monospace;color:rgba(255,248,231,.45)">THEMES.teal</div>
+              </div>
+
+              <div style="padding:13px;border:2px solid rgba(255,248,231,.14);box-sizing:border-box">
+                <div style="display:flex;height:52px;overflow:hidden">
+                  <div style="width:14px;background:#160a1d"></div>
+                  <div style="flex:1;background:#2b1236;position:relative">
+                    <div style="position:absolute;left:18px;bottom:0;width:38px;height:26px;background:#1c0d25;border-top:3px solid #ff7a5c"></div>
+                    <div style="position:absolute;right:16px;top:0;width:30px;height:20px;background:#1c0d25;border-bottom:3px solid #ff7a5c"></div>
+                  </div>
+                  <div style="width:14px;background:#160a1d"></div>
+                </div>
+                <div style="display:flex;align-items:center;justify-content:space-between;margin-top:11px">
+                  <div style="font:700 11.5px/1 'Space Grotesk',sans-serif;color:rgba(255,248,231,.8)">VIOLET DUSK</div>
+                  <div style="width:15px;height:15px;border-radius:15px;border:2px solid rgba(255,248,231,.3);box-sizing:border-box"></div>
+                </div>
+                <div style="margin-top:5px;font:400 9.5px/1 'IBM Plex Mono',monospace;color:rgba(255,248,231,.45)">THEMES.dusk</div>
+              </div>
+
+            </div>
+          </div>
+
+          <div style="display:flex;flex-direction:column;gap:11px">
+            <div style="font:700 9.5px/1 'Space Grotesk',sans-serif;letter-spacing:.2em;color:rgba(255,248,231,.45)">EMERGENCY ESCAPE</div>
+            <div style="display:flex;gap:2px">
+              <div style="flex:1;padding:12px 14px;background:#ffd43b">
+                <div style="font:700 11px/1 'Space Grotesk',sans-serif;color:#05171e">HP PENALTY</div>
+                <div style="margin-top:5px;font:400 9.5px/1.45 'IBM Plex Mono',monospace;color:rgba(5,23,30,.7)">Автовзлёт снимает 25–40% HP</div>
+              </div>
+              <div style="flex:1;padding:12px 14px;background:rgba(255,248,231,.06)">
+                <div style="font:700 11px/1 'Space Grotesk',sans-serif;color:rgba(255,248,231,.8)">FATAL</div>
+                <div style="margin-top:5px;font:400 9.5px/1.45 'IBM Plex Mono',monospace;color:rgba(255,248,231,.45)">Паника не спасает</div>
+              </div>
+            </div>
+          </div>
+
+          <div style="display:flex;justify-content:space-between;align-items:center;padding:12px 14px;background:rgba(255,248,231,.05)">
+            <div style="font:700 11px/1 'Space Grotesk',sans-serif;color:rgba(255,248,231,.85)">NEURAL VIEW</div>
+            <div style="width:38px;height:20px;background:#ffd43b;display:flex;align-items:center;justify-content:flex-end;padding:2px;box-sizing:border-box"><div style="width:16px;height:16px;background:#05171e"></div></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div style="font:400 10.5px/1.6 'IBM Plex Mono',monospace;color:rgba(242,239,233,.38);max-width:844px">Смена темы применяется сразу, без перезапуска: рендерер читает палитру каждый кадр. В Expo — одно значение в AsyncStorage, в вебе — localStorage.</div>
+  </div>
+</section>
+
+<section id="t3" style="padding:44px 48px 40px;border-bottom:1px solid rgba(255,255,255,.08)">
+  <div style="display:flex;align-items:baseline;gap:12px;margin:0 0 6px">
+    <a href="#t3" style="font:600 10px 'IBM Plex Mono',monospace;padding:4px 8px;background:#ffd43b;color:#05171e;border-radius:4px;text-decoration:none">3</a>
+    <span style="font:600 13px 'Space Grotesk',sans-serif;color:#f2efe9">Муха: четыре состояния · карта препятствий</span>
+  </div>
+  <p style="margin:0 0 26px;max-width:780px;font:400 12px/1.6 'IBM Plex Mono',monospace;color:rgba(242,239,233,.55);text-wrap:pretty">Поза мухи теперь и есть индикатор состояния — отдельного HUD-элемента «можно садиться» не нужно. В <a href="#2a">2a</a> и <a href="#2b">2b</a> она уже отрисована этими же позами и переключается автоматически.</p>
+  <div style="display:flex;flex-direction:column;gap:30px">
+
+    <div id="3a" style="display:flex;flex-direction:column;gap:10px;scroll-margin-top:16px">
+      <div style="display:flex;align-items:baseline;gap:9px;font:400 11px/1.3 'IBM Plex Mono',monospace;color:rgba(242,239,233,.5)">
+        <a href="#3a" style="font:600 10.5px 'IBM Plex Mono',monospace;padding:3px 7px;background:rgba(255,212,59,.16);color:#ffd43b;border-radius:5px;text-decoration:none">3a</a>
+        Состояния мухи (анимировано)
+      </div>
+      <div style="width:868px;padding:12px;background:#1c1b17;border:1px solid rgba(255,255,255,.1);border-radius:32px">
+        <canvas ref="{{ posesRef }}" width="1688" height="520" style="display:block;width:844px;height:260px;border-radius:22px"></canvas>
+      </div>
+    </div>
+
+    <div id="3b" style="display:flex;flex-direction:column;gap:10px;scroll-margin-top:16px">
+      <div style="display:flex;align-items:baseline;gap:9px;font:400 11px/1.3 'IBM Plex Mono',monospace;color:rgba(242,239,233,.5)">
+        <a href="#3b" style="font:600 10.5px 'IBM Plex Mono',monospace;padding:3px 7px;background:rgba(255,212,59,.16);color:#ffd43b;border-radius:5px;text-decoration:none">3b</a>
+        Экран с препятствиями — четыре архетипа
+      </div>
+      <div style="width:868px;padding:12px;background:#1c1b17;border:1px solid rgba(255,255,255,.1);border-radius:46px;box-shadow:0 20px 50px rgba(0,0,0,.45)">
+        <canvas ref="{{ obsRef }}" width="1688" height="780" style="display:block;width:844px;height:390px;border-radius:32px"></canvas>
+      </div>
+      <div style="font:400 10.5px/1.6 'IBM Plex Mono',monospace;color:rgba(242,239,233,.38);max-width:844px">Генератор в <a href="#2a">2a</a> собирает уровень из этих четырёх блоков с интервалом 210–320 px. Каждый блок даёт 4 грани для посадки; торцы опаснее — по ним муха уползает медленнее.</div>
+    </div>
+
+  </div>
+</section>
+
+<section id="t2" style="padding:44px 48px 40px;border-bottom:1px solid rgba(255,255,255,.08)">
+  <div style="display:flex;align-items:baseline;gap:12px;margin:0 0 6px">
+    <a href="#t2" style="font:600 10px 'IBM Plex Mono',monospace;padding:4px 8px;background:#ffd43b;color:#05171e;border-radius:4px;text-decoration:none">2</a>
+    <span style="font:600 13px 'Space Grotesk',sans-serif;color:#f2efe9">Пейзаж · вид сбоку · две темы</span>
+  </div>
+  <p style="margin:0 0 26px;max-width:760px;font:400 12px/1.6 'IBM Plex Mono',monospace;color:rgba(242,239,233,.55);text-wrap:pretty">Ландшафт даёт то, чего не хватало портрету: горизонт видно на 844 px вперёд, поэтому решение «сесть или лететь» принимается заранее. Аркадный HUD ужат в полосу 58 px сверху — крупные цифры, HP сегментами. Обе темы — один движок, играбельно: тап — взмах, тап на поверхности — detach.</p>
+  <div style="display:flex;flex-wrap:wrap;gap:34px;align-items:flex-start">
+
+    <div id="2a" style="flex:none;display:flex;flex-direction:column;gap:10px;scroll-margin-top:16px">
+      <div style="display:flex;align-items:baseline;gap:9px;font:400 11px/1.3 'IBM Plex Mono',monospace;color:rgba(242,239,233,.5)">
+        <a href="#2a" style="font:600 10.5px 'IBM Plex Mono',monospace;padding:3px 7px;background:rgba(255,212,59,.16);color:#ffd43b;border-radius:5px;text-decoration:none">2a</a>
+        Тема A · DEEP TEAL / AMBER
+      </div>
+      <div style="width:868px;padding:12px;background:#1c1b17;border:1px solid rgba(255,255,255,.1);border-radius:46px;box-shadow:0 20px 50px rgba(0,0,0,.45)">
+        <div style="position:relative;width:844px;height:390px;border-radius:32px;overflow:hidden;background:#0d2b36">
+          <canvas ref="{{ arcadeRef }}" width="1688" height="780" style="display:block;width:844px;height:390px;touch-action:manipulation;cursor:pointer"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <div id="2b" style="flex:none;display:flex;flex-direction:column;gap:10px;scroll-margin-top:16px">
+      <div style="display:flex;align-items:baseline;gap:9px;font:400 11px/1.3 'IBM Plex Mono',monospace;color:rgba(242,239,233,.5)">
+        <a href="#2b" style="font:600 10.5px 'IBM Plex Mono',monospace;padding:3px 7px;background:rgba(255,122,92,.18);color:#ff7a5c;border-radius:5px;text-decoration:none">2b</a>
+        Тема B · VIOLET / CORAL
+      </div>
+      <div style="width:868px;padding:12px;background:#1c1b17;border:1px solid rgba(255,255,255,.1);border-radius:46px;box-shadow:0 20px 50px rgba(0,0,0,.45)">
+        <div style="position:relative;width:844px;height:390px;border-radius:32px;overflow:hidden;background:#2b1236">
+          <canvas ref="{{ duskRef }}" width="1688" height="780" style="display:block;width:844px;height:390px;touch-action:manipulation;cursor:pointer"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <div id="2c" style="flex:none;display:flex;flex-direction:column;gap:10px;scroll-margin-top:16px">
+      <div style="display:flex;align-items:baseline;gap:9px;font:400 11px/1.3 'IBM Plex Mono',monospace;color:rgba(242,239,233,.5)">
+        <a href="#2c" style="font:600 10.5px 'IBM Plex Mono',monospace;padding:3px 7px;background:rgba(255,212,59,.16);color:#ffd43b;border-radius:5px;text-decoration:none">2c</a>
+        Меню и Game Over в пейзаже (тема A)
+      </div>
+      <div style="display:flex;flex-direction:column;gap:18px">
+
+        <div style="width:868px;padding:12px;background:#1c1b17;border:1px solid rgba(255,255,255,.1);border-radius:46px">
+          <div style="display:flex;width:844px;height:390px;border-radius:32px;overflow:hidden;background:#0d2b36;box-sizing:border-box">
+            <div style="flex:1;display:flex;flex-direction:column;justify-content:space-between;padding:38px 40px">
+              <div style="display:flex;flex-direction:column;gap:14px">
+                <div style="align-self:flex-start;padding:5px 9px;background:#ffd43b;font:700 9.5px/1 'Space Grotesk',sans-serif;letter-spacing:.18em;color:#05171e">MALECNS v1.0</div>
+                <div style="font:700 62px/.86 'Space Grotesk',sans-serif;color:#fff8e7;letter-spacing:-.035em">SYNAP<br>FLY</div>
+              </div>
+              <div style="font:400 11.5px/1.55 'IBM Plex Mono',monospace;color:rgba(255,248,231,.6);max-width:280px;text-wrap:pretty">Лети. Садись на любую грань. Лечись. Успей отклеиться до левого края.</div>
+            </div>
+            <div style="width:334px;display:flex;flex-direction:column;justify-content:space-between;padding:38px 40px;background:rgba(5,23,30,.55)">
+              <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px">
+                <div>
+                  <div style="font:700 9.5px/1 'Space Grotesk',sans-serif;letter-spacing:.2em;color:rgba(255,248,231,.45)">BEST</div>
+                  <div style="margin-top:4px;font:700 40px/1 'Space Grotesk',sans-serif;color:#ffd43b;letter-spacing:-.03em">18402</div>
+                </div>
+                <div>
+                  <div style="font:700 9.5px/1 'Space Grotesk',sans-serif;letter-spacing:.2em;color:rgba(255,248,231,.45)">LONGEST SIT</div>
+                  <div style="margin-top:4px;font:700 40px/1 'Space Grotesk',sans-serif;color:#fff8e7;letter-spacing:-.03em">11.4</div>
+                </div>
+              </div>
+              <div style="display:flex;flex-direction:column;gap:10px">
+                <div style="display:flex;align-items:center;justify-content:center;height:58px;background:#ffd43b;font:700 14px/1 'Space Grotesk',sans-serif;letter-spacing:.14em;color:#05171e">TAP TO FLY</div>
+                <div style="display:flex;gap:9px">
+                  <div style="flex:1;display:flex;align-items:center;justify-content:center;height:42px;border:2px solid rgba(255,248,231,.22);font:700 10.5px/1 'Space Grotesk',sans-serif;letter-spacing:.1em;color:rgba(255,248,231,.8)">SETTINGS</div>
+                  <div style="flex:1;display:flex;align-items:center;justify-content:center;height:42px;border:2px solid rgba(255,248,231,.22);font:700 10.5px/1 'Space Grotesk',sans-serif;letter-spacing:.1em;color:rgba(255,248,231,.8)">SCORES</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div style="width:868px;padding:12px;background:#1c1b17;border:1px solid rgba(255,255,255,.1);border-radius:46px">
+          <div style="display:flex;width:844px;height:390px;border-radius:32px;overflow:hidden;background:#05171e;box-sizing:border-box">
+            <div style="flex:1;display:flex;flex-direction:column;justify-content:space-between;padding:38px 40px">
+              <div style="display:flex;flex-direction:column;gap:20px">
+                <div style="align-self:flex-start;padding:9px 14px;background:#ff4d2e;font:700 19px/1 'Space Grotesk',sans-serif;color:#05171e">CRASHED</div>
+                <div>
+                  <div style="font:700 9.5px/1 'Space Grotesk',sans-serif;letter-spacing:.2em;color:rgba(255,248,231,.45)">SCORE</div>
+                  <div style="margin-top:2px;font:700 74px/1 'Space Grotesk',sans-serif;color:#ffd43b;letter-spacing:-.04em">7340</div>
+                </div>
+              </div>
+              <div style="display:flex;align-items:center;justify-content:center;height:56px;background:#ffd43b;font:700 14px/1 'Space Grotesk',sans-serif;letter-spacing:.14em;color:#05171e">TAP TO PLAY AGAIN</div>
+            </div>
+            <div style="width:380px;display:flex;flex-direction:column;justify-content:space-between;padding:38px 40px;background:rgba(255,248,231,.04)">
+              <div style="display:flex;flex-direction:column;gap:1px">
+                <div style="display:flex;justify-content:space-between;padding:10px 0;border-bottom:1px solid rgba(255,248,231,.1);font:400 11.5px/1 'IBM Plex Mono',monospace;color:rgba(255,248,231,.55)"><span>LANDINGS</span><span style="color:#fff8e7">12 · 4 perfect</span></div>
+                <div style="display:flex;justify-content:space-between;padding:10px 0;border-bottom:1px solid rgba(255,248,231,.1);font:400 11.5px/1 'IBM Plex Mono',monospace;color:rgba(255,248,231,.55)"><span>BEST MULTIPLIER</span><span style="color:#fff8e7">×5</span></div>
+                <div style="display:flex;justify-content:space-between;padding:10px 0;border-bottom:1px solid rgba(255,248,231,.1);font:400 11.5px/1 'IBM Plex Mono',monospace;color:rgba(255,248,231,.55)"><span>PANIC ESCAPES</span><span style="color:#ff9f1c">3 · −71 HP</span></div>
+                <div style="display:flex;justify-content:space-between;padding:10px 0;font:400 11.5px/1 'IBM Plex Mono',monospace;color:rgba(255,248,231,.55)"><span>TOP AIR SPEED</span><span style="color:#fff8e7">318 px/s</span></div>
+              </div>
+              <div style="padding:13px 14px;background:rgba(255,159,28,.1);border-left:3px solid #ff9f1c;font:400 10.5px/1.55 'IBM Plex Mono',monospace;color:#ff9f1c">Последний вылет: panic escape с 82 HP → штраф 34% → удар о стену на 612 px/s.</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+  <p style="margin:26px 0 0;font:400 11.5px/1.6 'IBM Plex Mono',monospace;color:rgba(242,239,233,.45)">Дальше: «оставь тему A», «сделай препятствия реже», «посадка прощающей», «верни Neural View в пейзаже».</p>
+</section>
+
+<section id="t1" style="padding:44px 48px 40px;border-bottom:1px solid rgba(255,255,255,.08)">
+  <div style="display:flex;align-items:baseline;gap:12px;margin:0 0 6px">
+    <a href="#t1" style="font:600 10px 'IBM Plex Mono',monospace;padding:4px 8px;background:#7cf08a;color:#0c0f0e;border-radius:4px;text-decoration:none">1</a>
+    <span style="font:600 13px 'Space Grotesk',sans-serif;color:#f2efe9">Synapfly — первый проход</span>
+  </div>
+  <p style="margin:0 0 26px;max-width:720px;font:400 12px/1.6 'IBM Plex Mono',monospace;color:rgba(242,239,233,.55);text-wrap:pretty">Допущения: портретный телефон, одно касание, тёмный «прибор» вместо аркадной картинки — HUD читается как измерительная панель, потому что MaleCNS и есть фича. <a href="#1a">1a</a> и <a href="#1b">1b</a> — один и тот же играбельный движок (полёт, посадка на 4 грани, HP, heal-тиры, crawl, panic, endless-чанки), различается только слой индикации. <a href="#1c">1c</a> — мета-экраны. Тапайте по экрану телефона.</p>
+
+  <div style="display:flex;flex-wrap:wrap;gap:34px;align-items:flex-start">
+
+    <div id="1a" style="flex:none;display:flex;flex-direction:column;gap:10px;scroll-margin-top:16px">
+      <div style="display:flex;align-items:baseline;gap:9px;font:400 11px/1.3 'IBM Plex Mono',monospace;color:rgba(242,239,233,.5)">
+        <a href="#1a" style="font:600 10.5px 'IBM Plex Mono',monospace;padding:3px 7px;background:rgba(124,240,138,.14);color:#7cf08a;border-radius:5px;text-decoration:none">1a</a>
+        Игра · минимальный HUD
+      </div>
+      <div style="width:414px;padding:12px;background:#1c1b17;border:1px solid rgba(255,255,255,.1);border-radius:46px;box-shadow:0 20px 50px rgba(0,0,0,.45)">
+        <div style="position:relative;width:390px;height:844px;border-radius:34px;overflow:hidden;background:#0a0d0c">
+          <canvas ref="{{ gameRef }}" width="780" height="1688" style="display:block;width:390px;height:844px;touch-action:manipulation;cursor:pointer"></canvas>
+        </div>
+      </div>
+      <div style="font:400 10.5px/1.5 'IBM Plex Mono',monospace;color:rgba(242,239,233,.38);max-width:414px">tap — взмах · tap на поверхности — detach · долго сидишь: HP +N/s и ×N растут, но экран уносит влево</div>
+    </div>
+
+    <div id="1b" style="flex:none;display:flex;flex-direction:column;gap:10px;scroll-margin-top:16px">
+      <div style="display:flex;align-items:baseline;gap:9px;font:400 11px/1.3 'IBM Plex Mono',monospace;color:rgba(242,239,233,.5)">
+        <a href="#1b" style="font:600 10.5px 'IBM Plex Mono',monospace;padding:3px 7px;background:rgba(124,240,138,.14);color:#7cf08a;border-radius:5px;text-decoration:none">1b</a>
+        Тот же движок · NEURAL VIEW
+      </div>
+      <div style="width:414px;padding:12px;background:#1c1b17;border:1px solid rgba(255,255,255,.1);border-radius:46px;box-shadow:0 20px 50px rgba(0,0,0,.45)">
+        <div style="position:relative;width:390px;height:844px;border-radius:34px;overflow:hidden;background:#0a0d0c">
+          <canvas ref="{{ neuralRef }}" width="780" height="1688" style="display:block;width:390px;height:844px;touch-action:manipulation;cursor:pointer"></canvas>
+        </div>
+      </div>
+      <div style="font:400 10.5px/1.5 'IBM Plex Mono',monospace;color:rgba(242,239,233,.38);max-width:414px">LC4/LPLC2 реагируют на looming, DNp01 — на угрозу, DNp07/DNp10 поднимаются при заходе на посадку</div>
+    </div>
+
+    <div id="1c" style="flex:none;display:flex;flex-direction:column;gap:10px;scroll-margin-top:16px">
+      <div style="display:flex;align-items:baseline;gap:9px;font:400 11px/1.3 'IBM Plex Mono',monospace;color:rgba(242,239,233,.5)">
+        <a href="#1c" style="font:600 10.5px 'IBM Plex Mono',monospace;padding:3px 7px;background:rgba(124,240,138,.14);color:#7cf08a;border-radius:5px;text-decoration:none">1c</a>
+        Мета: старт · Game Over · настройки
+      </div>
+      <div style="display:flex;gap:18px">
+
+        <div style="width:294px;padding:9px;background:#1c1b17;border:1px solid rgba(255,255,255,.1);border-radius:36px">
+          <div style="width:276px;height:598px;border-radius:28px;overflow:hidden;background:#0a0d0c;display:flex;flex-direction:column;justify-content:space-between;padding:34px 26px;box-sizing:border-box">
+            <div style="display:flex;flex-direction:column;gap:14px">
+              <div style="font:500 9.5px/1 'IBM Plex Mono',monospace;letter-spacing:.22em;color:rgba(242,239,233,.42)">MALECNS v1.0</div>
+              <div style="font:700 40px/.95 'Space Grotesk',sans-serif;color:#f2efe9;letter-spacing:-.02em">SYNAPFLY</div>
+              <div style="width:44px;height:1px;background:#7cf08a"></div>
+              <div style="font:400 11.5px/1.55 'IBM Plex Mono',monospace;color:rgba(242,239,233,.5);text-wrap:pretty">Муха летит, садится, лечится и панует. Один палец.</div>
+            </div>
+            <div style="display:flex;flex-direction:column;gap:18px">
+              <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+                <div style="padding:12px 13px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:10px">
+                  <div style="font:500 8.5px/1 'IBM Plex Mono',monospace;letter-spacing:.16em;color:rgba(242,239,233,.4)">BEST</div>
+                  <div style="margin-top:7px;font:600 22px/1 'IBM Plex Mono',monospace;color:#f2efe9">18 402</div>
+                </div>
+                <div style="padding:12px 13px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:10px">
+                  <div style="font:500 8.5px/1 'IBM Plex Mono',monospace;letter-spacing:.16em;color:rgba(242,239,233,.4)">LONGEST SIT</div>
+                  <div style="margin-top:7px;font:600 22px/1 'IBM Plex Mono',monospace;color:#f2efe9">11.4<span style="font-size:12px;color:rgba(242,239,233,.45)">s</span></div>
+                </div>
+              </div>
+              <div style="display:flex;align-items:center;justify-content:center;height:56px;background:#7cf08a;border-radius:12px;font:600 13px/1 'IBM Plex Mono',monospace;letter-spacing:.14em;color:#0a0d0c">TAP TO FLY</div>
+              <div style="display:flex;gap:10px">
+                <div style="flex:1;display:flex;align-items:center;justify-content:center;height:44px;border:1px solid rgba(255,255,255,.12);border-radius:12px;font:500 10.5px/1 'IBM Plex Mono',monospace;letter-spacing:.12em;color:rgba(242,239,233,.72)">NEURAL VIEW</div>
+                <div style="flex:1;display:flex;align-items:center;justify-content:center;height:44px;border:1px solid rgba(255,255,255,.12);border-radius:12px;font:500 10.5px/1 'IBM Plex Mono',monospace;letter-spacing:.12em;color:rgba(242,239,233,.72)">SETTINGS</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div style="width:294px;padding:9px;background:#1c1b17;border:1px solid rgba(255,255,255,.1);border-radius:36px">
+          <div style="width:276px;height:598px;border-radius:28px;overflow:hidden;background:#0a0d0c;display:flex;flex-direction:column;justify-content:space-between;padding:34px 26px;box-sizing:border-box">
+            <div style="display:flex;flex-direction:column;gap:16px">
+              <div style="font:500 9.5px/1 'IBM Plex Mono',monospace;letter-spacing:.22em;color:#ff5a3c">HP 0 · IMPACT 612 px/s</div>
+              <div style="font:700 30px/1 'Space Grotesk',sans-serif;color:#f2efe9;letter-spacing:-.01em">CRASHED</div>
+              <div style="display:flex;flex-direction:column;gap:1px;margin-top:6px">
+                <div style="display:flex;justify-content:space-between;padding:11px 0;border-bottom:1px solid rgba(255,255,255,.07);font:400 11.5px/1 'IBM Plex Mono',monospace;color:rgba(242,239,233,.55)"><span>SCORE</span><span style="color:#f2efe9">7 340</span></div>
+                <div style="display:flex;justify-content:space-between;padding:11px 0;border-bottom:1px solid rgba(255,255,255,.07);font:400 11.5px/1 'IBM Plex Mono',monospace;color:rgba(242,239,233,.55)"><span>LANDINGS</span><span style="color:#f2efe9">12 · 4 perfect</span></div>
+                <div style="display:flex;justify-content:space-between;padding:11px 0;border-bottom:1px solid rgba(255,255,255,.07);font:400 11.5px/1 'IBM Plex Mono',monospace;color:rgba(242,239,233,.55)"><span>BEST MULTIPLIER</span><span style="color:#f2efe9">×5</span></div>
+                <div style="display:flex;justify-content:space-between;padding:11px 0;border-bottom:1px solid rgba(255,255,255,.07);font:400 11.5px/1 'IBM Plex Mono',monospace;color:rgba(242,239,233,.55)"><span>PANIC ESCAPES</span><span style="color:#ffc53d">3 · −71 HP</span></div>
+                <div style="display:flex;justify-content:space-between;padding:11px 0;font:400 11.5px/1 'IBM Plex Mono',monospace;color:rgba(242,239,233,.55)"><span>TOP AIR SPEED</span><span style="color:#f2efe9">318 px/s</span></div>
+              </div>
+            </div>
+            <div style="display:flex;flex-direction:column;gap:12px">
+              <div style="padding:13px 14px;background:rgba(255,197,61,.08);border:1px solid rgba(255,197,61,.25);border-radius:10px;font:400 10.5px/1.55 'IBM Plex Mono',monospace;color:#ffc53d">Последний вылет: panic escape с 82 HP → штраф 34% → удар о стену на 612 px/s.</div>
+              <div style="display:flex;align-items:center;justify-content:center;height:54px;background:#7cf08a;border-radius:12px;font:600 13px/1 'IBM Plex Mono',monospace;letter-spacing:.14em;color:#0a0d0c">AGAIN</div>
+            </div>
+          </div>
+        </div>
+
+        <div style="width:294px;padding:9px;background:#1c1b17;border:1px solid rgba(255,255,255,.1);border-radius:36px">
+          <div style="width:276px;height:598px;border-radius:28px;overflow:hidden;background:#0a0d0c;display:flex;flex-direction:column;gap:22px;padding:34px 26px;box-sizing:border-box">
+            <div style="font:700 22px/1 'Space Grotesk',sans-serif;color:#f2efe9">Settings</div>
+            <div style="display:flex;flex-direction:column;gap:11px">
+              <div style="font:500 9px/1 'IBM Plex Mono',monospace;letter-spacing:.18em;color:rgba(242,239,233,.4)">EMERGENCY ESCAPE</div>
+              <div style="display:flex;flex-direction:column;gap:8px">
+                <div style="display:flex;gap:11px;padding:13px 14px;background:rgba(124,240,138,.07);border:1px solid rgba(124,240,138,.4);border-radius:10px">
+                  <div style="width:9px;height:9px;margin-top:3px;border-radius:9px;background:#7cf08a;flex:none"></div>
+                  <div><div style="font:500 11.5px/1 'IBM Plex Mono',monospace;color:#f2efe9">HP PENALTY</div><div style="margin-top:6px;font:400 10px/1.5 'IBM Plex Mono',monospace;color:rgba(242,239,233,.5)">Автовзлёт снимает 25–40% от HP на момент посадки. Минимум 1 HP.</div></div>
+                </div>
+                <div style="display:flex;gap:11px;padding:13px 14px;border:1px solid rgba(255,255,255,.1);border-radius:10px">
+                  <div style="width:9px;height:9px;margin-top:3px;border-radius:9px;border:1px solid rgba(242,239,233,.35);flex:none"></div>
+                  <div><div style="font:500 11.5px/1 'IBM Plex Mono',monospace;color:rgba(242,239,233,.8)">FATAL / HARDCORE</div><div style="margin-top:6px;font:400 10px/1.5 'IBM Plex Mono',monospace;color:rgba(242,239,233,.5)">Паника отыгрывается, но не спасает. Game Over.</div></div>
+                </div>
+              </div>
+            </div>
+            <div style="display:flex;flex-direction:column;gap:11px">
+              <div style="font:500 9px/1 'IBM Plex Mono',monospace;letter-spacing:.18em;color:rgba(242,239,233,.4)">HUD</div>
+              <div style="display:flex;justify-content:space-between;align-items:center;padding:13px 14px;border:1px solid rgba(255,255,255,.1);border-radius:10px;font:400 11.5px/1 'IBM Plex Mono',monospace;color:rgba(242,239,233,.8)"><span>NEURAL VIEW</span><div style="width:38px;height:21px;border-radius:21px;background:#7cf08a;display:flex;align-items:center;justify-content:flex-end;padding:2px;box-sizing:border-box"><div style="width:17px;height:17px;border-radius:17px;background:#0a0d0c"></div></div></div>
+              <div style="display:flex;justify-content:space-between;align-items:center;padding:13px 14px;border:1px solid rgba(255,255,255,.1);border-radius:10px;font:400 11.5px/1 'IBM Plex Mono',monospace;color:rgba(242,239,233,.8)"><span>LANDING HINT (LEGS)</span><div style="width:38px;height:21px;border-radius:21px;background:#7cf08a;display:flex;align-items:center;justify-content:flex-end;padding:2px;box-sizing:border-box"><div style="width:17px;height:17px;border-radius:17px;background:#0a0d0c"></div></div></div>
+              <div style="display:flex;justify-content:space-between;align-items:center;padding:13px 14px;border:1px solid rgba(255,255,255,.1);border-radius:10px;font:400 11.5px/1 'IBM Plex Mono',monospace;color:rgba(242,239,233,.5)"><span>IMPACT NUMBERS</span><div style="width:38px;height:21px;border-radius:21px;background:rgba(255,255,255,.12);display:flex;align-items:center;padding:2px;box-sizing:border-box"><div style="width:17px;height:17px;border-radius:17px;background:rgba(242,239,233,.6)"></div></div></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+  <p style="margin:26px 0 0;font:400 11.5px/1.6 'IBM Plex Mono',monospace;color:rgba(242,239,233,.45)">Дальше: «сделай посадку прощающей», «панику — в Hardcore», «HUD ещё тише», «покажи вариант индикации безопасной посадки».</p>
+</section>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;accent&quot;:{&quot;editor&quot;:&quot;color&quot;,&quot;default&quot;:&quot;#7cf08a&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;options&quot;:[&quot;#7cf08a&quot;,&quot;#ffc53d&quot;,&quot;#4fa8ff&quot;,&quot;#ff5a3c&quot;],&quot;section&quot;:&quot;Look&quot;},&quot;panicMode&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;default&quot;:&quot;HP Penalty&quot;,&quot;options&quot;:[&quot;HP Penalty&quot;,&quot;Fatal / Hardcore&quot;],&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;Balance&quot;},&quot;landingForgiveness&quot;:{&quot;editor&quot;:&quot;range&quot;,&quot;default&quot;:1,&quot;min&quot;:0.6,&quot;max&quot;:1.8,&quot;step&quot;:0.1,&quot;tsType&quot;:&quot;number&quot;,&quot;section&quot;:&quot;Balance&quot;}}">
+class Component extends DCLogic {
+  constructor(p){ super(p); this.insts = []; }
+  opts(extra){
+    return Object.assign({
+      accent: this.props.accent ?? '#7cf08a',
+      panicMode: this.props.panicMode ?? 'HP Penalty',
+      landingForgiveness: this.props.landingForgiveness ?? 1
+    }, extra);
+  }
+  componentDidUpdate(){ this.insts.forEach(i => Object.assign(i.opts, this.opts({neural: i.opts.neural, theme: i.opts.theme}))); }
+  componentWillUnmount(){ this.insts.forEach(i => { i.alive = false; cancelAnimationFrame(i.raf); }); }
+  boot(el, neural, theme){
+    if (!el) return;
+    if (el.__syn) {
+      const i = el.__syn;
+      Object.assign(i.opts, this.opts({neural, theme}));
+      if (this.insts.indexOf(i) < 0) this.insts.push(i);
+      if (!i.alive) i.start();
+      return;
+    }
+    const inst = this.startGame(el, this.opts({neural, theme}));
+    el.__syn = inst;
+    this.insts.push(inst);
+  }
+  renderVals(){
+    return {
+      gameRef: el => this.boot(el, false),
+      neuralRef: el => this.boot(el, true),
+      arcadeRef: el => this.boot(el, false, 'arcade'),
+      duskRef: el => this.boot(el, false, 'dusk'),
+      posesRef: el => this.bootAux(el, 'poses'),
+      obsRef: el => this.bootAux(el, 'obstacles')
+    };
+  }
+
+  bootAux(el, kind){
+    if (!el || el.__aux) return;
+    el.__aux = true;
+    const ctx = el.getContext('2d');
+    ctx.setTransform(2, 0, 0, 2, 0, 0);
+    const W = el.width / 2, H = el.height / 2;
+    const a = '#ffd43b', ink = '#fff8e7', t0 = performance.now();
+    const inst = { raf: 0, alive: true };
+    this.insts.push(inst);
+    const loop = now => {
+      if (!inst.alive) return;
+      inst.raf = requestAnimationFrame(loop);
+      const t = (now - t0) / 1000;
+      try { kind === 'poses' ? this.drawPoses(ctx, W, H, t, a, ink) : this.drawObstacles(ctx, W, H, t, a, ink); }
+      catch (e) { console.warn('synapfly aux', e); }
+    };
+    inst.raf = requestAnimationFrame(loop);
+  }
+
+  drawPoses(ctx, W, H, t, a, ink){
+    ctx.fillStyle = '#0d2b36'; ctx.fillRect(0, 0, W, H);
+    const cells = [
+      ['ОБЫЧНЫЙ ПОЛЁТ', 'ноги собраны', 'cruise'],
+      ['ГОТОВНОСТЬ К ПОСАДКЕ', 'ноги вытягиваются', 'ready'],
+      ['ATTACH', 'лапы касаются поверхности', 'attach'],
+      ['DANGER', 'муха ползёт по поверхности', 'danger']
+    ];
+    const cw = W / 4;
+    cells.forEach(([title, sub, pose], i) => {
+      const x = i * cw, cx = x + cw / 2, cy = H * 0.44;
+      if (i) { ctx.strokeStyle = 'rgba(255,248,231,.12)'; ctx.beginPath(); ctx.moveTo(x + .5, 22); ctx.lineTo(x + .5, H - 22); ctx.stroke(); }
+      // surface for attached poses
+      if (pose === 'attach' || pose === 'danger') {
+        const sy = cy + 26;
+        ctx.fillStyle = '#07212b'; ctx.fillRect(x + 22, sy, cw - 44, 34);
+        ctx.strokeStyle = a; ctx.lineWidth = 3; ctx.beginPath();
+        ctx.moveTo(x + 22, sy + 1.5); ctx.lineTo(x + cw - 22, sy + 1.5); ctx.stroke();
+      }
+      let ox = 0;
+      if (pose === 'danger') ox = Math.sin(t * 1.3) * 14 - 6;
+      this.flyPose(ctx, cx + ox, pose === 'attach' || pose === 'danger' ? cy + 17 : cy, 0, pose, t, a, ink, 2.6, pose === 'cruise' ? t * 26 : t * 30);
+      if (pose === 'danger') {
+        ctx.strokeStyle = 'rgba(255,212,59,.5)'; ctx.lineWidth = 1; ctx.setLineDash([2, 3]);
+        ctx.beginPath(); ctx.moveTo(cx - 24, cy + 17); ctx.lineTo(cx + ox - 16, cy + 17); ctx.stroke(); ctx.setLineDash([]);
+      }
+      ctx.textAlign = 'center';
+      ctx.font = "700 11px 'Space Grotesk', sans-serif"; ctx.fillStyle = pose === 'danger' ? a : ink;
+      ctx.fillText(title, cx, H - 44);
+      ctx.font = "400 10px 'IBM Plex Mono', monospace"; ctx.fillStyle = 'rgba(255,248,231,.55)';
+      ctx.fillText(sub, cx, H - 26);
+    });
+  }
+
+  drawObstacles(ctx, W, H, t, a, ink){
+    const BAND = 32, bg = '#0d2b36';
+    ctx.fillStyle = bg; ctx.fillRect(0, 0, W, H);
+    ctx.strokeStyle = 'rgba(255,255,255,.05)'; ctx.lineWidth = 1; ctx.beginPath();
+    for (let x = 0; x < W; x += 48) { ctx.moveTo(x, 0); ctx.lineTo(x, H); }
+    for (let y = 0; y < H; y += 48) { ctx.moveTo(0, y); ctx.lineTo(W, y); }
+    ctx.stroke();
+    ctx.fillStyle = '#05171e'; ctx.fillRect(0, 0, W, BAND); ctx.fillRect(0, H - BAND, W, BAND);
+    ctx.fillStyle = a; ctx.fillRect(0, BAND - 2, W, 2); ctx.fillRect(0, H - BAND, W, 2);
+
+    const A = H - 2 * BAND;
+    const obs = [
+      { x: 92, w: 62, h: A * 0.3, anchor: 'ceil', lbl: 'GATE · пара', d: 'взлётный коридор, садиться некуда' },
+      { x: 92, w: 62, h: A * 0.26, anchor: 'floor' },
+      { x: 268, w: 210, h: A * 0.26, anchor: 'ceil', lbl: 'LEDGE · длинный карниз', d: 'много места, ×N успевает вырасти' },
+      { x: 556, w: 36, h: A * 0.46, anchor: 'floor', lbl: 'SPIKE · узкий', d: 'посадка на 4 грани, торец — риск' },
+      { x: 690, w: 150, h: A * 0.3, anchor: 'floor', lbl: 'PLATEAU', d: 'верхняя грань — безопасно' }
+    ];
+    obs.forEach(o => {
+      const y = o.anchor === 'ceil' ? BAND : H - BAND - o.h;
+      ctx.fillStyle = '#07212b'; ctx.fillRect(o.x, y, o.w, o.h);
+      ctx.strokeStyle = 'rgba(255,255,255,.14)'; ctx.lineWidth = 1; ctx.strokeRect(o.x + .5, y + .5, o.w - 1, o.h - 1);
+      ctx.strokeStyle = a; ctx.lineWidth = 3; ctx.beginPath();
+      const ey = o.anchor === 'ceil' ? y + o.h : y;
+      ctx.moveTo(o.x, ey); ctx.lineTo(o.x + o.w, ey);
+      ctx.moveTo(o.x + 1.5, y); ctx.lineTo(o.x + 1.5, ey);
+      ctx.moveTo(o.x + o.w - 1.5, y); ctx.lineTo(o.x + o.w - 1.5, ey);
+      ctx.stroke();
+      if (!o.lbl) return;
+      const lx = o.x + o.w / 2, ly = o.anchor === 'ceil' ? y + o.h + 22 : y - 30;
+      ctx.textAlign = 'center';
+      ctx.font = "700 10px 'Space Grotesk', sans-serif"; ctx.fillStyle = ink;
+      ctx.fillText(o.lbl, lx, ly);
+      ctx.font = "400 9px 'IBM Plex Mono', monospace"; ctx.fillStyle = 'rgba(255,248,231,.5)';
+      ctx.fillText(o.d, lx, ly + 13);
+    });
+
+    // три позы мухи в контексте препятствий
+    this.flyPose(ctx, 214, BAND + A * 0.52, 0.12, 'cruise', t, a, ink, 1.6, t * 26);
+    this.flyPose(ctx, 500, BAND + A * 0.44, 0.3, 'ready', t, a, ink, 1.6, t * 30);
+    this.flyPose(ctx, 760, H - BAND - A * 0.3 - 11, 0, 'attach', t, a, ink, 1.6, 0);
+    ctx.textAlign = 'center'; ctx.font = "400 9px 'IBM Plex Mono', monospace";
+    ctx.fillStyle = 'rgba(255,248,231,.45)';
+    ctx.fillText('cruise', 214, BAND + A * 0.52 + 34);
+    ctx.fillText('ready', 500, BAND + A * 0.44 + 34);
+    ctx.fillStyle = a; ctx.fillText('attach · HP +5/s ×5', 760, H - BAND - A * 0.3 - 34);
+
+    ctx.textAlign = 'left'; ctx.font = "700 10px 'Space Grotesk', sans-serif";
+    ctx.fillStyle = 'rgba(255,248,231,.5)';
+    ctx.fillText('SCROLL →', 20, 20);
+    ctx.textAlign = 'right';
+    ctx.fillStyle = '#ff4d2e'; ctx.fillText('LEFT EDGE = GAME OVER', W - 20, H - 12);
+  }
+
+  // pose: cruise | ready | attach | danger
+  flyPose(ctx, x, y, rot, pose, t, a, ink, s, wingPhase){
+    const flying = pose === 'cruise' || pose === 'ready';
+    ctx.save(); ctx.translate(x, y); ctx.rotate(rot); ctx.scale(s, s);
+    ctx.lineCap = 'round';
+
+    // wings
+    const wf = flying ? Math.sin(wingPhase == null ? t * 26 : wingPhase) : 0;
+    ctx.fillStyle = 'rgba(190,235,255,.34)';
+    for (const k of [0, 1]) {
+      ctx.save();
+      ctx.translate(-1, -2.4);
+      ctx.rotate((flying ? -0.5 - wf * 0.5 : -0.12) - k * 0.22);
+      ctx.beginPath(); ctx.ellipse(-4.5, 0, 8.5, flying ? 2.6 : 2, 0, 0, 7); ctx.fill();
+      ctx.restore();
+    }
+
+    // legs — 3 pairs, pose-driven
+    ctx.strokeStyle = pose === 'danger' ? a : 'rgba(242,239,233,.85)';
+    ctx.lineWidth = 1.3;
+    const step = pose === 'danger' ? Math.sin(t * 13) : 0;
+    const GY = 5.6; // плоскость контакта в локальных координатах (низ корпуса)
+    for (let i = 0; i < 3; i++) {
+      const hipX = 2.6 - i * 2.4, hipY = 1.8;
+      let kx, ky, tx, ty;
+      if (pose === 'cruise') {            // ноги собраны, прижаты назад
+        kx = hipX - 1.4; ky = hipY + 1.2;
+        tx = hipX - 3.2; ty = hipY + 1.6;
+      } else if (pose === 'ready') {      // вытянуты вперёд-вниз
+        kx = hipX + 1.6; ky = hipY + 2.6;
+        tx = hipX + 2.8 - i * 0.5; ty = GY + 3.2;
+      } else {                            // attach / danger — упор в поверхность
+        const ph = pose === 'danger' ? step * (i % 2 ? 1 : -1) : 0;
+        kx = hipX + 1.8 + ph * 0.9; ky = hipY + 1.6;
+        tx = hipX + 3.2 + ph * 2.2; ty = GY - Math.max(0, ph) * 2.2;
+      }
+      ctx.beginPath(); ctx.moveTo(hipX, hipY); ctx.lineTo(kx, ky); ctx.lineTo(tx, ty); ctx.stroke();
+      if (pose === 'attach' || pose === 'danger') {
+        ctx.fillStyle = a; ctx.beginPath(); ctx.arc(tx, ty, 1, 0, 7); ctx.fill();
+      }
+    }
+
+    // body
+    ctx.fillStyle = ink || '#e9e5dd';
+    ctx.beginPath(); ctx.ellipse(-1.2, 0, 5.6, 3.5, 0, 0, 7); ctx.fill();
+    ctx.beginPath(); ctx.ellipse(3.6, 0, 2.6, 2.5, 0, 0, 7); ctx.fill();
+    ctx.fillStyle = a; ctx.beginPath(); ctx.arc(4.6, -0.9, 1.7, 0, 7); ctx.fill();
+    ctx.restore();
+
+    if (pose === 'danger') {
+      ctx.save(); ctx.globalAlpha = .45 + Math.abs(Math.sin(t * 6)) * .55;
+      ctx.strokeStyle = a; ctx.lineWidth = 1.2;
+      ctx.beginPath(); ctx.arc(x, y, 15 * s + Math.sin(t * 6) * 2.5, 0, 7); ctx.stroke();
+      ctx.restore();
+    } else if (pose === 'ready') {
+      ctx.save(); ctx.globalAlpha = .5; ctx.strokeStyle = a; ctx.lineWidth = 1;
+      ctx.setLineDash([3, 4]);
+      ctx.beginPath(); ctx.arc(x, y, 13 * s, 0, 7); ctx.stroke();
+      ctx.restore();
+    }
+  }
+
+  startGame(canvas, opts){
+    const W = canvas.width / 2, H = canvas.height / 2, BAND = H > 600 ? 40 : 32, R = 7, A = H - 2 * (H > 600 ? 40 : 32);
+    const ctx = canvas.getContext('2d');
+    ctx.setTransform(2, 0, 0, 2, 0, 0);
+
+    const G = 1500, FLAP_VY = -365, FLAP_VX = 22, VX_MIN = 92, VX_MAX = 330;
+    const MAX_HP = 100, MIN_HIT_DAMAGE = 10;
+    const REATTACH_DELAY = 0.14;
+    const HEAL_TIERS = [[0, 2, 1], [2.2, 4, 2], [4.6, 7, 3], [7.5, 10, 5]];
+
+    const self = this;
+    const inst = { opts, raf: 0, alive: false };
+    const THEMES = {
+      lab: { bg: '#0a0d0c', band: '#141a18', obs: '#171f1c', edge: 'rgba(255,255,255,.09)', ink: '#f2efe9', grid: 'rgba(255,255,255,.035)', grid2: 'rgba(255,255,255,.055)', acc: '#7cf08a' },
+      arcade: { bg: '#0d2b36', band: '#05171e', obs: '#07212b', edge: 'rgba(255,255,255,.14)', ink: '#fff8e7', inkRGB: '255,248,231', grid: 'rgba(255,255,255,.05)', grid2: 'rgba(255,255,255,.08)', acc: '#ffd43b', warn: '#ff9f1c', bad: '#ff4d2e' },
+      dusk: { bg: '#2b1236', band: '#160a1d', obs: '#1c0d25', edge: 'rgba(255,255,255,.13)', ink: '#ffeede', inkRGB: '255,238,222', grid: 'rgba(255,255,255,.045)', grid2: 'rgba(255,255,255,.075)', acc: '#ff7a5c', warn: '#ffb35c', bad: '#ff3d6e' }
+    };
+    THEMES.lab.inkRGB = '242,239,233'; THEMES.lab.warn = '#ffc53d'; THEMES.lab.bad = '#ff5a3c';
+    const TH = () => THEMES[inst.opts.theme] || THEMES.lab;
+    let S = null;
+
+    const rnd = (a, b) => a + Math.random() * (b - a);
+
+    function reset(){
+      S = {
+        fly: { x: W * 0.32, y: H * 0.45, vx: 130, vy: 0, hp: MAX_HP, mode: 'idle', pitch: 0 },
+        cam: { x: 0, vx: 130 },
+        obs: [], nextX: W * 1.05, obId: 0,
+        score: 0, mult: 1, healRate: 0, sit: 0, hpAtLanding: MAX_HP,
+        att: null, lastSurf: null, sinceDetach: 9, flap: 0, wing: 0,
+        flash: null, dmgFlash: 0, over: null, t: 0,
+        neu: { lc4: 0, lplc2: 0, dnp01: 0, dnp07: 0, dnp10: 0 }
+      };
+      while (S.nextX < W * 3) spawn();
+    }
+
+    function spawn(){
+      const x = S.nextX, p = Math.random(), gapMin = A * 0.42;
+      if (p < 0.3) {
+        const gap = rnd(gapMin, A * 0.52), top = rnd(A * 0.12, A * 0.34), w = rnd(54, 80);
+        push(x, w, top, 'ceil'); push(x, w, A - top - gap, 'floor');
+        S.nextX = x + w + rnd(230, 320);
+      } else if (p < 0.55) {
+        const w = rnd(190, 270);
+        push(x, w, rnd(A * 0.14, A * 0.3), 'ceil');
+        S.nextX = x + w + rnd(210, 290);
+      } else if (p < 0.8) {
+        const w = rnd(30, 44);
+        push(x, w, rnd(A * 0.3, A * 0.52), Math.random() < 0.5 ? 'ceil' : 'floor');
+        S.nextX = x + w + rnd(220, 300);
+      } else {
+        const w = rnd(130, 180);
+        push(x, w, rnd(A * 0.18, A * 0.36), 'floor');
+        S.nextX = x + w + rnd(230, 310);
+      }
+    }
+    function push(x, w, h, anchor){
+      h = Math.max(A * 0.11, Math.min(h, A * 0.6));
+      const y = anchor === 'ceil' ? BAND : H - BAND - h;
+      S.obs.push({ id: ++S.obId, x, y, w, h, anchor });
+    }
+
+    function rects(){
+      const r = S.obs.map(o => ({ o, x: o.x, y: o.y, w: o.w, h: o.h }));
+      r.push({ o: { id: -1, anchor: 'ceil', x: S.cam.x - 200, y: -400, w: W + 2400, h: 400 + BAND }, x: S.cam.x - 200, y: -400, w: W + 2400, h: 400 + BAND });
+      r.push({ o: { id: -2, anchor: 'floor', x: S.cam.x - 200, y: H - BAND, w: W + 2400, h: 400 }, x: S.cam.x - 200, y: H - BAND, w: W + 2400, h: 400 });
+      return r;
+    }
+
+    function faceOf(nx, ny){
+      if (Math.abs(nx) > Math.abs(ny)) return nx < 0 ? 'left' : 'right';
+      return ny < 0 ? 'top' : 'bottom';
+    }
+
+    function attach(o, face, fx, fy){
+      const f = S.fly;
+      S.att = { o, face, t: face === 'top' || face === 'bottom' ? fx - o.x : fy - o.y };
+      f.vx = 0; f.vy = 0; f.mode = 'attached';
+      S.sit = 0; S.hpAtLanding = f.hp; S.mult = 1;
+      const perfect = true;
+      S.score += perfect ? 60 : 30;
+      S.flash = { txt: 'ATTACH', c: inst.opts.accent, t: 0.9 };
+    }
+
+    function detach(panic){
+      const a = S.att; if (!a) return;
+      const n = { top: [0, -1], bottom: [0, 1], left: [-1, 0], right: [1, 0] }[a.face];
+      const f = S.fly;
+      f.x += n[0] * 6; f.y += n[1] * 6;
+      f.vx = Math.max(VX_MIN, S.cam.vx * 0.55) + n[0] * 40;
+      f.vy = a.face === 'top' ? -60 : (a.face === 'bottom' ? 90 : (a.o.anchor === 'ceil' ? 120 : -150));
+      f.mode = 'flying';
+      S.lastSurf = a.o.id + a.face; S.sinceDetach = 0;
+      if (panic) {
+        if (inst.opts.panicMode === 'Fatal / Hardcore') { S.att = null; S.over = { why: 'PANIC ESCAPE FAILED', hp: 0 }; f.hp = 0; return; }
+        const hpB = S.hpAtLanding, k = hpB / MAX_HP;
+        const rate = rnd(0.16 + 0.09 * k, 0.27 + 0.13 * k);
+        let hp = hpB - hpB * rate;
+        if (hpB > MIN_HIT_DAMAGE) hp = Math.max(MIN_HIT_DAMAGE + 1, hp);
+        else hp = Math.min(MIN_HIT_DAMAGE - 1, hp);
+        f.hp = Math.max(1, Math.round(hp));
+        S.flash = { txt: 'PANIC ESCAPE  −' + Math.round(hpB * rate) + ' HP', c: '#ffc53d', t: 1.5 };
+        S.mult = 1;
+      } else {
+        S.flash = { txt: 'DETACH  ×' + S.mult, c: inst.opts.accent, t: 0.7 };
+      }
+      S.att = null;
+    }
+
+    function tap(){
+      if (S.over) { reset(); return; }
+      const f = S.fly;
+      if (f.mode === 'attached') { detach(false); return; }
+      if (f.mode === 'idle') f.mode = 'flying';
+      f.vy = FLAP_VY;
+      f.vx = Math.min(VX_MAX, f.vx + FLAP_VX);
+      S.flap = 1; S.wing = 1;
+    }
+
+    function step(dt){
+      const f = S.fly;
+      S.t += dt;
+      if (S.flash) { S.flash.t -= dt; if (S.flash.t <= 0) S.flash = null; }
+      S.dmgFlash = Math.max(0, S.dmgFlash - dt * 2.2);
+      S.flap = Math.max(0, S.flap - dt * 4);
+      S.wing += dt * (f.mode === 'flying' ? 26 : 4);
+      S.sinceDetach += dt;
+
+      if (f.mode === 'attached') {
+        const a = S.att;
+        S.sit += dt;
+        for (const [t, hr, m] of HEAL_TIERS) if (S.sit >= t) { S.healRate = hr; S.mult = m; }
+        f.hp = Math.min(MAX_HP, f.hp + S.healRate * dt);
+        S.score += 26 * S.mult * dt;
+        const screenX = (a.face === 'top' || a.face === 'bottom' ? a.o.x + a.t : a.o.x + (a.face === 'left' ? 0 : a.o.w)) - S.cam.x;
+        const danger = screenX < W * 0.34;
+        if (danger) {
+          const crawl = S.cam.vx * 0.46 * dt;
+          if (a.face === 'top' || a.face === 'bottom') a.t = Math.min(a.o.w - R, a.t + crawl);
+          else if (a.o.anchor === 'ceil') a.t = Math.min(a.o.h - R, a.t + crawl);
+          else a.t = Math.max(R, a.t - crawl);
+        }
+        if (a.face === 'top' || a.face === 'bottom') { f.x = a.o.x + a.t; f.y = a.face === 'top' ? a.o.y - R : a.o.y + a.o.h + R; }
+        else { f.y = a.o.y + a.t; f.x = a.face === 'left' ? a.o.x - R : a.o.x + a.o.w + R; }
+        if (f.x - S.cam.x < W * 0.11) detach(true);
+      } else if (f.mode === 'flying') {
+        f.vy += G * dt;
+        f.vx = Math.max(VX_MIN, f.vx - 16 * dt);
+        const sub = 5, sdt = dt / sub;
+        for (let i = 0; i < sub; i++) {
+          f.x += f.vx * sdt; f.y += f.vy * sdt;
+          collide();
+          if (f.mode !== 'flying') break;
+        }
+        f.pitch = Math.atan2(f.vy, Math.max(60, f.vx)) * 0.55;
+      }
+
+      const want = f.mode === 'attached' ? Math.max(VX_MIN, S.cam.vx) : Math.max(VX_MIN, f.vx);
+      const sx = (f.x - S.cam.x) / W;
+      let target = want * (1 + (sx > 0.72 ? 0.9 : sx < 0.42 ? -0.22 : 0));
+      S.cam.vx += (target - S.cam.vx) * Math.min(1, dt * 2.6);
+      S.cam.x += S.cam.vx * dt;
+
+      while (S.nextX < S.cam.x + W + 1200) spawn();
+      S.obs = S.obs.filter(o => o.x + o.w > S.cam.x - 400);
+
+      neural(dt);
+
+      if (f.hp <= 0 && !S.over) S.over = { why: 'HP DEPLETED', hp: 0 };
+      if (f.x - S.cam.x < -12 && !S.over) S.over = { why: 'LEFT BEHIND', hp: Math.round(f.hp) };
+      if (S.over) { S.over.score = Math.round(S.score); }
+    }
+
+    function collide(){
+      const f = S.fly;
+      for (const r of rects()) {
+        const cx = Math.max(r.x, Math.min(f.x, r.x + r.w));
+        const cy = Math.max(r.y, Math.min(f.y, r.y + r.h));
+        let dx = f.x - cx, dy = f.y - cy;
+        let d = Math.hypot(dx, dy);
+        if (d > R) continue;
+        if (d < 0.0001) { dx = 0; dy = -1; d = 1; }
+        const nx = dx / d, ny = dy / d;
+        const face = faceOf(nx, ny);
+        const impact = -(f.vx * nx + f.vy * ny);
+        const tang = Math.abs(f.vx * -ny + f.vy * nx);
+        f.x = cx + nx * (R + 0.4); f.y = cy + ny * (R + 0.4);
+        const key = r.o.id + face;
+        const blocked = key === S.lastSurf && S.sinceDetach < REATTACH_DELAY;
+        const fg = inst.opts.landingForgiveness;
+        if (!blocked && impact <= 300 * fg && tang <= 340 * fg) { attach(r.o, face, f.x, f.y); return; }
+        const dmg = Math.max(MIN_HIT_DAMAGE, (impact - 90) * 0.1);
+        f.hp -= dmg;
+        S.dmgFlash = 1;
+        S.flash = { txt: '−' + Math.round(dmg) + ' HP  ' + Math.round(impact) + ' px/s', c: '#ff5a3c', t: 1 };
+        const vn = f.vx * nx + f.vy * ny;
+        f.vx = (f.vx - 1.6 * vn * nx) * 0.42; f.vy = (f.vy - 1.6 * vn * ny) * 0.42;
+        f.vx = Math.max(60, f.vx);
+        return;
+      }
+    }
+
+    function neural(dt){
+      const f = S.fly, n = S.neu;
+      let loom = 0, land = 0;
+      for (const o of S.obs) {
+        if (o.x + o.w < f.x - 20) continue;
+        const dxs = Math.max(0, o.x - f.x), dys = Math.abs((o.y + o.h / 2) - f.y);
+        if (dxs < 260 && dys < 240) loom = Math.max(loom, (1 - dxs / 260) * (1 - dys / 300) * Math.min(1, f.vx / 220));
+        const near = Math.hypot(dxs, Math.max(0, dys - o.h / 2));
+        if (near < 90) land = Math.max(land, 1 - near / 90);
+      }
+      const attached = f.mode === 'attached';
+      const safe = Math.abs(f.vy) < 240 ? 1 : 0.25;
+      const panicNear = attached ? Math.max(0, 1 - ((f.x - S.cam.x) / (W * 0.34))) : 0;
+      const k = Math.min(1, dt * 7);
+      n.lc4 += (loom * 0.95 - n.lc4) * k;
+      n.lplc2 += (loom - n.lplc2) * k;
+      n.dnp01 += (Math.max(loom * (f.vx / VX_MAX), panicNear) - n.dnp01) * k;
+      n.dnp07 += ((attached ? 0.25 : land * safe) - n.dnp07) * k;
+      n.dnp10 += ((attached ? 0.4 + panicNear * 0.5 : land * safe * 0.85) - n.dnp10) * k;
+    }
+
+    // ---- render ----
+    const mono = n => n + "px 'IBM Plex Mono', monospace";
+    function draw(){
+      const T = TH(), arc = !!inst.opts.theme && inst.opts.theme !== 'lab';
+      const a = inst.opts.accent && inst.opts.accent !== '#7cf08a' ? inst.opts.accent : T.acc;
+      const f = S.fly;
+      ctx.fillStyle = T.bg; ctx.fillRect(0, 0, W, H);
+
+      ctx.strokeStyle = T.grid; ctx.lineWidth = 1;
+      const g = 48, off = -(S.cam.x % g);
+      ctx.beginPath();
+      for (let x = off; x < W; x += g) { ctx.moveTo(x, 0); ctx.lineTo(x, H); }
+      for (let y = 0; y < H; y += g) { ctx.moveTo(0, y); ctx.lineTo(W, y); }
+      ctx.stroke();
+      ctx.strokeStyle = T.grid2;
+      const g2 = 190, off2 = -((S.cam.x * 0.35) % g2);
+      ctx.beginPath();
+      for (let x = off2; x < W; x += g2) { ctx.moveTo(x, BAND); ctx.lineTo(x, H - BAND); }
+      ctx.stroke();
+
+      const band = (y, h) => { ctx.fillStyle = T.band; ctx.fillRect(0, y, W, h); };
+      band(0, BAND); band(H - BAND, BAND);
+      ctx.strokeStyle = arc ? a : 'rgba(124,240,138,.22)'; ctx.lineWidth = arc ? 3 : 1; ctx.beginPath();
+      ctx.moveTo(0, BAND + .5); ctx.lineTo(W, BAND + .5);
+      ctx.moveTo(0, H - BAND - .5); ctx.lineTo(W, H - BAND - .5); ctx.stroke();
+
+      for (const o of S.obs) {
+        const x = o.x - S.cam.x;
+        if (x > W + 20 || x + o.w < -20) continue;
+        ctx.fillStyle = T.obs; ctx.fillRect(x, o.y, o.w, o.h);
+        ctx.strokeStyle = T.edge; ctx.lineWidth = 1;
+        ctx.strokeRect(x + .5, o.y + .5, o.w - 1, o.h - 1);
+        ctx.strokeStyle = a; ctx.globalAlpha = arc ? 1 : .55; ctx.lineWidth = arc ? 3 : 2; ctx.beginPath();
+        const ey = o.anchor === 'ceil' ? o.y + o.h : o.y;
+        ctx.moveTo(x, ey); ctx.lineTo(x + o.w, ey);
+        ctx.moveTo(x, o.anchor === 'ceil' ? o.y : o.y); ctx.lineTo(x, ey);
+        ctx.moveTo(x + o.w, o.y); ctx.lineTo(x + o.w, ey);
+        ctx.stroke(); ctx.globalAlpha = 1;
+      }
+
+      // fly
+      const fx = f.x - S.cam.x, fy = f.y;
+      let rot = f.pitch;
+      if (S.att) rot = { top: 0, bottom: Math.PI, left: -Math.PI / 2, right: Math.PI / 2 }[S.att.face];
+      let pose = 'cruise';
+      if (S.att) pose = (f.x - S.cam.x < W * 0.34) ? 'danger' : 'attach';
+      else if (S.neu.dnp07 + S.neu.dnp10 > 0.62) pose = 'ready';
+      self.flyPose(ctx, fx, fy, rot, pose, S.t, a, T.ink, 1.45, S.wing);
+
+      if (S.att) {
+        ctx.font = mono(10); ctx.fillStyle = a; ctx.textAlign = 'left';
+        ctx.fillText('HP +' + S.healRate + '/s   ×' + S.mult, fx + 14, fy - 10);
+        ctx.strokeStyle = 'rgba(124,240,138,.35)'; ctx.lineWidth = 1;
+        ctx.beginPath(); ctx.arc(fx, fy, 15 + Math.sin(S.t * 4) * 2, 0, 7); ctx.stroke();
+      }
+
+      // hud
+      const hp = Math.max(0, f.hp);
+      if (arc) { drawArcadeHud(a, hp, f); return drawTail(a, f, arc); }
+      ctx.fillStyle = 'rgba(10,13,12,.78)'; ctx.fillRect(0, 0, W, BAND);
+      ctx.font = mono(9); ctx.fillStyle = 'rgba(242,239,233,.45)'; ctx.textAlign = 'left';
+      ctx.fillText('HP', 18, 18);
+      ctx.fillStyle = 'rgba(255,255,255,.1)'; ctx.fillRect(40, 11, 96, 7);
+      ctx.fillStyle = hp > 55 ? a : hp > 25 ? '#ffc53d' : '#ff5a3c';
+      ctx.fillRect(40, 11, 96 * hp / MAX_HP, 7);
+      ctx.font = mono(10); ctx.fillStyle = '#f2efe9';
+      ctx.fillText(String(Math.round(hp)), 142, 19);
+      ctx.font = mono(9); ctx.fillStyle = 'rgba(242,239,233,.45)';
+      ctx.fillText('AIR ' + Math.round(f.vx), 18, 32);
+      ctx.textAlign = 'right';
+      ctx.font = mono(14); ctx.fillStyle = '#f2efe9';
+      ctx.fillText(String(Math.round(S.score)).padStart(5, '0'), W - 18, 22);
+      ctx.font = mono(9); ctx.fillStyle = S.mult > 1 ? a : 'rgba(242,239,233,.4)';
+      ctx.fillText('×' + S.mult + (S.att ? '  SIT ' + S.sit.toFixed(1) + 's' : ''), W - 18, 34);
+
+      drawTail(a, f, arc);
+    }
+
+    function drawTail(a, f, arc){
+      if (S.flash) {
+        ctx.globalAlpha = Math.min(1, S.flash.t * 1.6);
+        ctx.textAlign = 'center'; ctx.font = arc ? "700 16px 'Space Grotesk', sans-serif" : mono(11);
+        const T = TH();
+        ctx.fillStyle = S.flash.c === '#7cf08a' ? a : S.flash.c === '#ff5a3c' ? T.bad : S.flash.c === '#ffc53d' ? T.warn : S.flash.c;
+        ctx.fillText(S.flash.txt, W / 2, H * 0.82);
+        ctx.globalAlpha = 1;
+      }
+      if (S.dmgFlash > 0) {
+        const T = TH();
+        ctx.save(); ctx.globalAlpha = S.dmgFlash * .7;
+        ctx.strokeStyle = T.bad; ctx.lineWidth = 6; ctx.strokeRect(3, 3, W - 6, H - 6);
+        ctx.restore();
+      }
+      if (S.att && f.x - S.cam.x < W * 0.34) {
+        ctx.textAlign = 'center'; ctx.font = mono(10); ctx.fillStyle = TH().warn;
+        ctx.globalAlpha = .5 + Math.abs(Math.sin(S.t * 6)) * .5;
+        ctx.fillText('CNS: CRAWLING — ESCAPE WINDOW CLOSING', W / 2, H * 0.9);
+        ctx.globalAlpha = 1;
+      }
+
+      if (inst.opts.neural) drawNeural(a);
+
+      if (f.mode === 'idle') {
+        ctx.textAlign = 'center'; ctx.fillStyle = 'rgba(242,239,233,.75)'; ctx.font = mono(11);
+        ctx.fillText('TAP TO FLY', W / 2, H / 2 + 90);
+      }
+      if (S.over) {
+        const T = TH();
+        if (arc) { ctx.fillStyle = T.band; ctx.globalAlpha = .9; ctx.fillRect(0, 0, W, H); ctx.globalAlpha = 1; }
+        else { ctx.fillStyle = 'rgba(10,13,12,.86)'; ctx.fillRect(0, 0, W, H); }
+        ctx.textAlign = 'center';
+        if (arc) {
+          const ink = k => 'rgba(' + T.inkRGB + ',' + k + ')';
+          const plateW = Math.min(W - 80, 300), plateH = 46;
+          ctx.fillStyle = T.bad; ctx.fillRect((W - plateW) / 2, H * 0.17, plateW, plateH);
+          ctx.font = "700 26px 'Space Grotesk', sans-serif"; ctx.fillStyle = T.band;
+          ctx.fillText('CRASHED', W / 2, H * 0.17 + 33);
+          ctx.font = "700 64px 'Space Grotesk', sans-serif"; ctx.fillStyle = a;
+          ctx.fillText(String(S.over.score), W / 2, H * 0.52);
+          ctx.font = mono(11); ctx.fillStyle = ink(.6);
+          ctx.fillText(S.over.why, W / 2, H * 0.6);
+          const bw = Math.min(W - 120, 320), by = H * 0.72;
+          ctx.fillStyle = a; ctx.fillRect((W - bw) / 2, by, bw, 46);
+          ctx.font = "700 14px 'Space Grotesk', sans-serif"; ctx.fillStyle = T.band;
+          ctx.fillText('TAP TO PLAY AGAIN', W / 2, by + 29);
+        } else {
+          ctx.font = "700 30px 'Space Grotesk', sans-serif"; ctx.fillStyle = T.ink;
+          ctx.fillText('CRASHED', W / 2, H / 2 - 30);
+          ctx.font = mono(11); ctx.fillStyle = '#ff5a3c';
+          ctx.fillText(S.over.why, W / 2, H / 2 - 4);
+          ctx.font = mono(13); ctx.fillStyle = T.ink;
+          ctx.fillText('SCORE ' + S.over.score, W / 2, H / 2 + 34);
+          ctx.font = mono(10); ctx.fillStyle = 'rgba(242,239,233,.5)';
+          ctx.fillText('TAP TO RESTART', W / 2, H / 2 + 62);
+        }
+      }
+    }
+
+    function drawArcadeHud(a, hp, f){
+      const T = TH(), ink = k => 'rgba(' + T.inkRGB + ',' + k + ')';
+      const hb = H > 600 ? 104 : 58;
+      ctx.fillStyle = T.band; ctx.globalAlpha = .92; ctx.fillRect(0, 0, W, hb); ctx.globalAlpha = 1;
+      ctx.fillStyle = a; ctx.fillRect(0, hb - 3, W, 3);
+      const col = hp > 55 ? a : hp > 25 ? T.warn : T.bad;
+      ctx.textAlign = 'left';
+      ctx.font = "700 10px 'Space Grotesk', sans-serif"; ctx.fillStyle = ink(.5);
+      ctx.fillText('HP', 22, 21);
+      ctx.font = "700 30px 'Space Grotesk', sans-serif"; ctx.fillStyle = T.ink;
+      ctx.fillText(String(Math.round(hp)), 22, 47);
+      const seg = 10, bx = 78, bw = 150, sw = (bw - (seg - 1) * 3) / seg, filled = Math.ceil(hp / MAX_HP * seg);
+      for (let i = 0; i < seg; i++) {
+        ctx.fillStyle = i < filled ? col : ink(.14);
+        ctx.fillRect(bx + i * (sw + 3), 20, sw, 11);
+      }
+      ctx.font = "700 10px 'Space Grotesk', sans-serif"; ctx.fillStyle = ink(.5);
+      ctx.fillText('AIR SPEED  ' + Math.round(f.vx), bx, 46);
+      ctx.textAlign = 'right';
+      ctx.font = "700 40px 'Space Grotesk', sans-serif"; ctx.fillStyle = T.ink;
+      ctx.fillText(String(Math.round(S.score)), W - 22, 44);
+      if (S.mult > 1) {
+        ctx.font = "700 17px 'Space Grotesk', sans-serif";
+        const txt = '×' + S.mult, w2 = ctx.measureText(txt).width + 16;
+        ctx.fillStyle = a; ctx.fillRect(W - 22 - w2, 8, w2, 24);
+        ctx.fillStyle = T.band; ctx.textAlign = 'center'; ctx.fillText(txt, W - 22 - w2 / 2, 25);
+      }
+      if (S.att) {
+        ctx.textAlign = 'center'; ctx.font = "700 13px 'Space Grotesk', sans-serif"; ctx.fillStyle = a;
+        ctx.fillText('SITTING ' + S.sit.toFixed(1) + 's   HP +' + S.healRate + '/s', W / 2, H * 0.74);
+      }
+    }
+
+    function drawNeural(a){
+      const rows = [['LC4', S.neu.lc4], ['LPLC2', S.neu.lplc2], ['DNp01', S.neu.dnp01], ['DNp07', S.neu.dnp07], ['DNp10', S.neu.dnp10]];
+      const x = 18, w = 176, h = 118, y = Math.max(BAND + 76, H - 196);
+      ctx.fillStyle = 'rgba(10,13,12,.82)'; ctx.fillRect(x, y, w, h);
+      ctx.strokeStyle = 'rgba(255,255,255,.1)'; ctx.lineWidth = 1; ctx.strokeRect(x + .5, y + .5, w - 1, h - 1);
+      ctx.textAlign = 'left'; ctx.font = mono(8); ctx.fillStyle = 'rgba(242,239,233,.42)';
+      ctx.fillText('NEURAL VIEW · MALECNS SUBGRAPH', x + 10, y + 15);
+      rows.forEach(([name, v], i) => {
+        const ry = y + 32 + i * 17;
+        ctx.font = mono(9); ctx.fillStyle = 'rgba(242,239,233,.6)';
+        ctx.fillText(name, x + 10, ry + 7);
+        const bx = x + 58, bw = 104;
+        for (let s = 0; s < 13; s++) {
+          const on = v * 13 > s;
+          ctx.fillStyle = on ? (i < 3 ? '#ff5a3c' : a) : 'rgba(255,255,255,.08)';
+          ctx.globalAlpha = on ? .35 + v * .65 : 1;
+          ctx.fillRect(bx + s * (bw / 13), ry, bw / 13 - 2, 7);
+        }
+        ctx.globalAlpha = 1;
+      });
+      ctx.font = mono(8); ctx.fillStyle = 'rgba(242,239,233,.35)';
+      const lbl = S.att ? 'STATE: ATTACHED' : S.neu.lc4 > .4 ? 'STATE: LOOMING' : 'STATE: CRUISE';
+      ctx.fillText(lbl, x + 10, y + h - 8);
+    }
+
+    reset();
+    let last = performance.now();
+    const loop = t => {
+      if (!inst.alive) return;
+      inst.raf = requestAnimationFrame(loop);
+      const dt = Math.min(0.033, (t - last) / 1000); last = t;
+      try {
+        if (S.fly.mode !== 'idle' && !S.over) step(dt); else { S.t += dt; neural(dt); }
+        draw();
+      } catch (err) { console.warn('synapfly frame', err); }
+    };
+    inst.start = () => {
+      if (inst.alive) return;
+      inst.alive = true; last = performance.now();
+      inst.raf = requestAnimationFrame(loop);
+    };
+    inst.start();
+
+    const onDown = e => { e.preventDefault(); tap(); };
+    canvas.addEventListener('pointerdown', onDown);
+    return inst;
+  }
+}
+</script>
+</body>
+</html>
